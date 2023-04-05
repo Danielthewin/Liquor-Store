@@ -1,0 +1,95 @@
+/* Daniel Nguyen */
+
+/* Global backgrounds, colors, and widths */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Verdana;
+    margin: 0;
+}
+
+header, ul, #content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+}
+
+/* logo */
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+header {
+    position: relative;
+}
+
+header > h1, nav > ul {
+    padding-left: 225px;
+}
+
+/** Nav Bar **/
+nav {background-color: black;}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul a {
+    display: inline-block;
+    padding: 1rem;
+    font: bold;
+    text-decoration: none;
+    color: white;
+}
+
+ul a:hover {
+    background-color: black;
+    color: #9ae39a;
+}
+
+/**Home Page Bottom Columns**/
+main section {display: flex;}
+
+main section div{background-color: white;
+                border: 1px solid black;
+                border-radius: 10px;
+                margin-right: 1rem;
+                justify-content: center;
+                align-content: center;
+            }
+section div:last-child {margin-right: 0;}
+
+main section div h2 {background-color: black;
+                    border-radius: 10px 10px 0 0;
+                    color: white;
+                    margin-top: 0;
+}
+main section div img {border-style: double;
+                    border-width: 3px;
+                    border-color: #333;
+                    display: block;
+                    margin: auto;
+}
+
+/** Footer **/
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color: lightgrey;
+  }
