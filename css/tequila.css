@@ -1,14 +1,4 @@
-/* Daniel Nguyen */
-
-/* New Arrivials Banner */
-.banner-strip {
-    font-family: 'Overpass', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    background: #324775;
-    color: white;
-    font-size: 30px;
-  }
+/* Daniel Nguyen - Tequila Style Sheet */
 
 /* Logo and Banner */
 #logo {
@@ -51,7 +41,7 @@
 }
 
 .news {
-    color: black;
+    color: white;
     font-size: 100px;
     font-family: 'Overpass', sans-serif;
     font-weight: 600;
@@ -62,7 +52,7 @@
   }
 
 .description-news-banner {
-    color: black;
+    color: white;
     font-weight: 100px;
     font-size: 25px;
     font-family: 'Overpass', sans-serif;
@@ -72,22 +62,39 @@
     transform: translate(-50%, -50%);
 }
 
-.button {
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Product1 */
+main section{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
 }
 
-.button:hover {
-    background-color: black;
-    color: white;
-  }
+main section div {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 500px;
+    border: 1px solid #ccc;
+	padding: 20px;
+	margin: 20px;
+    justify-content: center;
+    align-content: center;
+} 
+section div:last-child {margin-right: 0;}  
 
-/** Footer **/
-.footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(15, 15, 66);
-    color: white;
-  }
+main section div h2 {
+    font-family: 'Overpass', sans-serif;
+    color:black;
+    margin-top: 20px;
+}
+
+main section div img {
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+
+
+/* Footer */
+
