@@ -1,0 +1,126 @@
+/* Daniel Nguyen - About Us Style Sheet */
+
+* {
+    font-family: 'Overpass', sans-serif;
+  }
+
+/* Logo and Banner */
+#logo {
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navagation Bar */
+.navagation {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    background-color:white;
+    width: 100%;
+    padding-top: 30px;
+
+  }
+
+.navagation a {
+    color: black;
+    text-align: auto;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navagation a:hover {
+    color: #324775;
+}
+
+/* About us Format*/
+
+h1 {
+    font-family: 'Overpass', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Overpass', sans-serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+/** Footer **/
+
+.footer-container {
+    background-color: #324775;
+    padding-top: 40px;
+  }
+  
+  .footer {
+    width: 70%;
+    height: 40vh;
+    background-color: #324775;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+  }
+  
+  .footer-section h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section a:hover {
+    color: black;
+  }
+  
+  .footer-email-form h2 {
+    margin-bottom: 2rem;
+  }
+  
+  #footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #footer-email::placeholder {
+    color: lightgrey;
+  }
+  
+  #footer-email-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color:black;
+    outline: none;
+    border: none;
+    color: lightgray;
+    font-size: 1rem;
+  }
+  
+  #footer-email-button:hover {
+    cursor: pointer;
+    background-color: white;
+  }
