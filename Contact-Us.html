@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Contact-Us-SS.css">
+
+    <!-- Custom Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+
+	<header>
+		<!-- Header -->
+        <header role="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo" id="logo" style="width:191px;height:80px;"></a>
+            </header>
+      
+            <div class="navagation">
+              <a href="News.html">Information</a>
+              <a href="Featured-Products.html">Featured Products</a>
+              <a href="About-Us.html">About</a>
+              <a href="Contact-Us.html">Contact</a>
+            </div>
+	</header>
+</head>
+
+<body>
+	<main>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Location</label>
+              <select id="location" name="location">
+                <option value="fortmill">Fort Mill</option>
+                <option value="columbia">Columbia</option>
+                <option value="charleston">Charleston</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+	</main>
+
+<!--Footer-->
+<div class="footer-container">
+    <div class=footer>
+
+      <div class="footer-section 1">
+        <h2>Nguyen's Liquor</h2>
+        <a href="#">1000 Cool Place Drive</a>
+        <a href="#">(803) 322-5899</a>
+        <a href="#">Nguyens-Liquor@gmail.com</a>
+      </div>
+
+      <div class="footer-section 2">
+        <h2>About Us</h2>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-section 3">
+        <h2>Store Hours</h2>
+        <a>Monday - 9:00AM - 7:00PM</a>
+        <a>Tuesday - 9:00AM - 7:00PM</a>
+        <a>Wednesday - 9:00AM - 7:00PM</a>
+        <a>Thursday - 9:00AM - 7:00PM</a>
+        <a>Friday - 9:00AM - 7:00PM</a>
+        <a>Saturday - 9:00AM - 7:00PM</a>
+        <a>Sunday - CLOSED!</a>
+      </div>
+
+      <div class="footer-email">
+        <h2>Join our Newsletter</h2>
+        <input type="email" placeholder="Enter Your Email Address" id="footer-email">
+        <input type="submit" value="Sign Up" id="footer-email-button">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
